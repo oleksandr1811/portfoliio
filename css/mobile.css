@@ -1,0 +1,574 @@
+@media screen and (max-width: 766px) {
+    /* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 52px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  /* контейнер меню */
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+    height: 300px;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    transition-duration: .25s;
+  }
+  .menu__box {
+    transition-duration: .25s;
+  }
+  .menu__item {
+    transition-duration: .25s;
+  }
+
+
+
+
+
+
+
+
+    .logo {
+      margin-left: 385px;
+      height: 73px;
+      margin-top: 33px;
+      order: 1;
+    }
+  
+    .header {
+      height: 133px;
+    }
+    .link {
+      margin-left: 60px;
+    }
+    .link:nth-child(1) {
+      margin-left: 0px;
+    }
+    .nav {
+      margin-top: 43px;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hi {
+      display: flex;
+      margin-top: 203px;
+    }
+    .iam {
+      display: flex;
+      margin: 0 auto;
+    }
+  
+    .iamtitle {
+  
+      font-family: 'Preahvihear';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 90px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.02em;
+      
+      color: #FFFFFF;
+      
+      
+    }
+    .hamburger-menu{
+        order: 2;
+    }
+    .text2 {
+      color: #ffffff;
+    }
+    .iamsubtitle {
+      font-family: "Preahvihear";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 38px;
+  
+      letter-spacing: 0.02em;
+    }
+    .iamtext {
+      margin-top: 34px;
+      /* Про мене */
+  
+  
+    }
+    .exp {
+      margin: 0 auto;
+      width: 784px;
+    }
+    .expblock {
+      border-radius: 10px;
+      display: flex;
+      width: 570px;
+      height: 210px;
+    }
+    .exptitle {
+      margin-top: 13px;
+  
+      /* Створення адаптивних сайтів */
+  
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 32px;
+  
+      color: #ffffff;
+    }
+    .expopys {
+      margin-top: 11px;
+      width: 232px;
+  
+      /* Я часто роблю сайти які гарно відображаються на різних пристроях */
+  
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 15px;
+      line-height: 17px;
+      /* or 131% */
+  
+      color: #ffffff;
+    }
+    .expclick{
+  border: #693B93 solid 2px;
+      background-color: #2C1250;
+      border-radius: 15px;
+      width: 119px;
+      height: 33px;
+      color: white;
+    }
+    .expform{
+      margin-top: 31px;
+    }
+    .dfj{
+      display: grid;
+      grid-template-columns: repeat(2, 570px);
+      grid-template-rows: repeat(2, 230px);
+      grid-gap: 10px;
+      margin: 0 auto;
+    }
+  .skills{
+    background-color: #271047;
+    margin: 0 auto;
+    width: 474px;
+    border-radius: 15px;
+    height: 1118px;
+  }
+     
+  .center{
+    text-align: center;
+  }
+  .hardskills{
+    padding-top: 40px;
+  }
+  .hardskillstitle{
+    margin: 0 auto;
+  
+  
+  font-family: 'Preahvihear';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 87px;
+  
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;
+  
+  background-color: #1D0946;
+  
+  width: 451px;
+  height: 100px;
+  
+  
+  
+  border-radius: 10px;
+  
+  }
+  .hardskillstext{
+  
+  
+  font-family: 'Preahvihear';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 87px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 69px;
+  margin-top: 74px;
+  color: #FFFFFF;
+  
+  
+  }
+  .softskillstitle{
+  
+  
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 87px;
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+    
+    background-color: #1D0946;
+    
+    width: 451px;
+    height: 100px;
+    
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 54px;
+    }
+    .softskillstext{
+    
+    
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 87px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-top: 58px;
+    margin-bottom: 48px;
+    color: #FFFFFF;
+    
+    
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    .feature{
+  
+  
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      
+      letter-spacing: 0.02em;
+      
+      color: #9857D3;
+      
+      
+      }
+      .projecttitle{
+      
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 51px;
+      
+      letter-spacing: 0.02em;
+      
+      color: #CCD6F6;
+      
+      
+      }
+      .projectopys{
+      
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      
+      color: #CCD6F6;
+      margin-top: 110px;
+      
+      
+      }
+      .project{
+          width: 500px;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 252px;
+      
+      }
+     .projects {
+        padding-top: 152px;
+      }
+
+      .left{
+          height: 193px;
+          width: 387px;
+      }
+  
+  .footer{
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+flex-direction: column-reverse;
+  }
+  .footer_text{
+    height: 500px;
+  }
+  .footerlinks{
+  
+  
+  font-family: 'Preahvihear';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;
+  margin-top: 95px;
+  
+  
+  }
+  
+    .footer_title{
+  
+  font-family: 'Preahvihear';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+  
+  color: #FFFFFF;
+  
+  
+    }
+  .button{
+    /* Rectangle 996 */
+  
+  width: 228px;
+  height: 59px;
+  
+  
+  background: #D9D9D9;
+  border-radius: 8px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    .alink_img_footer:nth-child(2){
+      margin-left: 27px;
+    }.alink_img_footer:nth-child(3){
+      margin-left: 27px;
+    }
+    .links_img_footer{
+      margin-top: 63px;
+    }
+    .footer_form{
+      width: 500px;
+      display: block;
+    
+    }
+    .name, .tg, .email{
+  
+  
+  width: 351px;
+  height: 59px;
+  
+  
+  background: #D9D9D9;
+  border-radius: 8px;
+  
+    }
+    .textyk_form{
+      /* Rectangle 989 */
+  
+  
+  width: 351px;
+  height: 130px;
+  
+  
+  background: #D9D9D9;
+  border-radius: 8px;
+  
+    }
+    .button_cont{
+      
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  
+    }
+    .name{
+      margin-top: 34px;
+    }
+    .textyk_form, .email, .tg{
+      margin-top: 16px;
+    }
+    .footer_form{
+      background-color: #472B73;
+      border-radius: 20px;
+    }
+    .blocks{
+      width: 351px;
+      margin: 0 auto;
+    }
+  
+  
+
+
+
+
+.nav{
+    display: none;
+}
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img{
+    display: none;
+}
+.iam{
+    
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.text2{
+    
+    color: white;
+
+}
+.dfj{
+    display: none;
+}
+.img_project{
+    
+    width: 400px;
+
+}
+.link123{
+    color: black;
+}
+}

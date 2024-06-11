@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфоліо</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  </style>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Preahvihear&display=swap");
+  </style>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/desktop.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/tablet.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img class="logo" src="img/logo.png" alt="Logotype" />
+      <nav class="nav">
+        <a href="index.html" class="link">Головна</a>
+        <a href="#about" class="link">Про мене</a>
+        <a href="#projects" class="link">Проекти</a>
+        <a href="#contact" class="link">Контакти</a>
+      </nav>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a href="index.html" class="link link123">Головна</a></li>
+          <li> <a href="#about" class="link link123">Про мене</a></li>
+          <li><a href="#projects" class="link link123">Проекти</a></li>
+          <li> <a href="#contact" class="link link123">Контакти</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <div class="hi">
+        <img src="img/Me.png" alt="Men" class="img" />
+        <div class="text">
+          <p class="hitext Preahvihear">Привіт,</p>
+          <h1 class="hititle Preahvihear">Мене звати Олександр Попов</h1>
+        </div>
+      </div>
+      <div class="iam" id="about">
+        <div class="text2">
+          <h1 class="iamtitle Preahvihear">Про мене</h1>
+          <p class="iamsubtitle Preahvihear">FRONTEND DEVELOPER</p>
+          <p class="iamtext Preahvihear">
+            Мене звати Олександр, я FRONTEND розробник!<br />
+            У сфері веб-розробки я 2 роки<br />
+            У сфері Linux я 3 місяці
+          </p>
+        </div>
+        <img src="img/myimg.png" alt="тут мав бути я." class="iamimg" />
+      </div>
+      <div class="exp">
+        <h1 class="expmaintitle Preahvihear">Я маю досвід:</h1>
+
+      </div>
+      <div class="dfj">
+
+        <div class="expblock">
+          <img src="img/kakashka1.png" alt="404 - ERROR" class="expimg" />
+          <div class="exptext">
+            <h1 class="exptitle">Створення адаптивних сайтів</h1>
+            <p class="expopys">Я часто роблю сайти які гарно відображаються на різних пристроях</p>
+            <form class="expform" action="exp.php"><button class="expclick">Більше</button></form>
+          </div>
+        </div>
+        <div class="expblock">
+          <img src="img/lampochka.png" alt="404 - ERROR" class="expimg" />
+          <div class="exptext">
+            <h1 class="exptitle">Створення адаптивних сайтів</h1>
+            <p class="expopys">Я часто роблю сайти які гарно відображаються на різних пристроях</p>
+            <form class="expform" action="exp.php"><button class="expclick">Більше</button></form>
+          </div>
+        </div>
+        <div class="expblock">
+          <img src="img/coffe.png" alt="404 - ERROR" class="expimg" />
+          <div class="exptext">
+            <h1 class="exptitle">Створення адаптивних сайтів</h1>
+            <p class="expopys">Я часто роблю сайти які гарно відображаються на різних пристроях</p>
+            <form class="expform" action="exp.php"><button class="expclick">Більше</button></form>
+          </div>
+        </div>
+        <div class="expblock">
+          <img src="img/pipetca.png" alt="404 - ERROR" class="expimg" />
+          <div class="exptext">
+            <h1 class="exptitle">Створення адаптивних сайтів</h1>
+            <p class="expopys">Я часто роблю сайти які гарно відображаються на різних пристроях</p>
+            <form class="expform" action="exp.php"><button class="expclick">Більше</button></form>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!--Далі скіли-->
+
+  <div class="skills">
+    <div class="hardskills">
+      <p class="hardskillstitle center">HARD SKILLS</p>
+      <p class="hardskillstext center">Html, CSS, JS, PHP, LINUX</p>
+    </div>
+    <hr>
+    <div class="softskills">
+
+      <p class="softskillstext center">TEAM WORK, HELPFULNESS, TROUBLESHOOT<span class="mobds">-<br></span>ING, CREATIVE THINKING</p>
+      <p class="softskillstitle center">SOFT SKILLS</p>
+    </div>
+  </div>
+  <!--projects-->
+  <div class="projects" id="projects">
+    <div class="project">
+      <div class="text_project">
+        <p class="feature">
+          Featured Project
+        </p>
+        <h2 class="projecttitle">
+          BeneneCraft RolePlay
+        </h2>
+        <div class="projectopys">Гра про реальне життя<br> Технології: PAWNO, JS, CSS</div>
+      </div>
+      <img src="img/benenecraft.png" alt="BeneneCraft RolePlay" class="img_project">
+    </div>
+    <div class="project">
+      <div class="text_project">
+        <p class="feature">
+          Featured Project
+        </p>
+        <h2 class="projecttitle">
+          Веб-студія
+        </h2>
+        <div class="projectopys">Це мій перший командний проект.<br> Технології: html, css</div>
+      </div>
+      <img src="img/webstudio.png" alt="webstudio" class="img_project">
+    </div>
+  </div>
+
+  </main>
+  <!--ФУТЕР-->
+
+  <footer class="footer">
+    <div class="text_footer">
+      <h2 class="footer_title">Contact</h2>
+      <p class="footerlinks">
+        https://t.me/Prosto_Cozdatel<br>
+        support@benenecraft.net
+      </p>
+      <div class="links_img_footer">
+        <a class="alink_img_footer" href="https://t.me/Prosto_Cozdatel"><img src="img/insta.png" class="link_img_footer"
+            alt="404"></a>
+        <a class="alink_img_footer" href="mailto://support@benenecraft.net"><img src="img/web.png"
+            class="link_img_footer" alt="404"></a>
+        <a class="alink_img_footer" href="https://github.com/oleksandr1811"><img src="img/google.png"
+            class="link_img_footer" alt="404"></a>
+      </div>
+    </div>
+
+    <form action="obrobka.php" class="footer_form">
+      <div class="blocks">
+        <input type="text" class="name input" required placeholder="Ваше ім'я">
+        <input type="text" class="tg input" required placeholder="Ваш username в тг">
+        <input type="text" class="email input" required placeholder="Ваше email">
+        <input type="text" class="textyk_form input" required placeholder="Message">
+        <div class="button_cont">
+          <button class="button" type="submit">SEND</button>
+          <img src="img/tg.png" alt="TELEGRAM Logotype">
+        </div>
+      </div>
+    </form>
+  </footer>
+  </div>
+</body>
+
+</html>

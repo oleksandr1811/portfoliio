@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #11071f;
+  width: 100%;
+}
+.container {
+  max-width: 1980px;
+  /* padding: 30px 300px; */
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  background-color: #1a0b2e;
+}
+.link {
+  color: white;
+  text-decoration: none;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.hi {
+  margin: 0 auto;
+}
+.Preahvihear {
+  font-family: "Preahvihear", sans-serif;
+}
+.text {
+  color: #ffffff;
+  margin-top: 49px;
+}
+.hititle {
+  margin-top: 25px;
+}
+.expmaintitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 72px;
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.expblock{
+  background-color: #190634;
+  width: 570px;
+  height: 192px;
+}
+.expimg{
+  margin-top: 36px;
+  margin-left: 56px;
+}
+.link_img_footer{
+  width: 19px;
+  height: 19px;
+}
