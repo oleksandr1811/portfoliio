@@ -139,7 +139,7 @@
         <h2 class="projecttitle">
           Веб-студія
         </h2>
-        <div class="projectopys">Це мій перший командний проект.<br> Технології: html, css</div>
+        <div class="projectopys">Це мій перший командний проект.<br> Технології: html, css<br>Він доступний за <a href="https://web-studio.oleksandr1811.pp.ua">цим посиланням</a></div>
       </div>
       <img src="img/webstudio.png" alt="webstudio" class="img_project">
     </div>
@@ -152,8 +152,8 @@
     <div class="text_footer">
       <h2 class="footer_title">Contact</h2>
       <p class="footerlinks">
-        https://t.me/Prosto_Cozdatel<br>
-        support@benenecraft.net
+        <a style="text-decoration: none;">https://t.me/Prosto_Cozdatel<br></a>
+          <a style="text-decoration: none;">support@benenecraft.net</a>
       </p>
       <div class="links_img_footer">
         <a class="alink_img_footer" href="https://t.me/Prosto_Cozdatel"><img src="img/insta.png" class="link_img_footer"
@@ -165,12 +165,12 @@
       </div>
     </div>
 
-    <form action="https://oleksandr1811.gm-web.pp.ua/obrobka.php" class="footer_form">
+    <form action="https://oleksandr1811.gm-web.pp.ua/obrobka.php" class="footer_form" method="post">
       <div class="blocks">
-        <input type="text" class="name input" required placeholder="Ваше ім'я">
-        <input type="text" class="tg input" required placeholder="Ваш username в тг">
-        <input type="text" class="email input" required placeholder="Ваше email">
-        <input type="text" class="textyk_form input" required placeholder="Message">
+        <input type="text" name="name" class="name input" required placeholder="Ваше ім'я">
+        <input type="text" name="tg" class="tg input" required placeholder="Ваш username в тг">
+        <input type="text" name="email" class="email input" required placeholder="Ваше email">
+        <input type="text" name="message" class="textyk_form input" required placeholder="Message">
         <div class="button_cont">
           <button class="button" type="submit">SEND</button>
           <img src="img/tg.png" alt="TELEGRAM Logotype">
