@@ -319,6 +319,8 @@ color: #FFFFFF;
     .left{
         height: 193px;
         width: 387px;
+    }.project:nth-child(4){
+      flex-direction: row-reverse;
     }
 
 .footer{
